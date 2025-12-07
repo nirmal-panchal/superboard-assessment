@@ -1,12 +1,11 @@
-import React from "react";
-
 const Quest2 = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width={128}
-      height={128}
+      viewBox="0 0 128 128"
       fill="none"
+      className="max-w-full h-auto"
+      style={{ width: "clamp(80px, 100%, 128px)" }}
     >
       <path
         fill="#F0F"

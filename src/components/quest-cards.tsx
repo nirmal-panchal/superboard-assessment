@@ -14,14 +14,16 @@ export function QuestCards() {
         <div className="rounded-2xl overflow-hidden bg-[#FAFAFA]">
           {/* Card Header with Gradient */}
           <div
-            className="h-[160px] md:h-[200px] flex items-center justify-center relative"
+            className="h-[160px] md:h-[200px] flex items-center justify-center relative px-4"
             style={{
               background:
                 "linear-gradient(180deg, #D8FF98 0%, rgba(216, 255, 152, 0) 100%)",
               backdropFilter: "blur(120px)",
             }}
           >
-            <TvIcon />
+            <div className="flex items-center justify-center max-w-full">
+              <TvIcon />
+            </div>
           </div>
 
           {/* Card Content */}
@@ -54,14 +56,16 @@ export function QuestCards() {
         {/* Card 2 - Bridge Assets (Placeholder) */}
         <div className="rounded-2xl overflow-hidden bg-[#FAFAFA]">
           <div
-            className="h-[160px] md:h-[200px] flex items-center justify-center relative"
+            className="h-[160px] md:h-[200px] flex items-center justify-center relative px-4"
             style={{
               background:
                 "linear-gradient(180deg, #FFA5FF 0%, rgba(255, 165, 255, 0) 100%)",
               backdropFilter: "blur(120px)",
             }}
           >
-            <Quest2 />
+            <div className="flex items-center justify-center max-w-full">
+              <Quest2 />
+            </div>
           </div>
 
           <div className="p-4 md:p-6">
@@ -93,14 +97,16 @@ export function QuestCards() {
         {/* Card 3 - Trade (Placeholder) */}
         <div className="rounded-2xl overflow-hidden bg-[#FAFAFA]">
           <div
-            className="h-[160px] md:h-[200px] flex items-center justify-center relative"
+            className="h-[160px] md:h-[200px] flex items-center justify-center relative px-4"
             style={{
               background:
                 "linear-gradient(180deg, #68FF9F 0%, rgba(34, 197, 94, 0) 100%)",
               backdropFilter: "blur(120px)",
             }}
           >
-            <Quest3 />
+            <div className="flex items-center justify-center max-w-full">
+              <Quest3 />
+            </div>
           </div>
 
           <div className="p-4 md:p-6">
