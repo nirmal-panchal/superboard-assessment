@@ -69,16 +69,13 @@ export function HeroSection() {
 
           {/* Title */}
           <h1 className="text-2xl md:text-3xl font-bold leading-8 mb-4 flex items-center justify-center md:justify-start gap-2 text-[#262626]">
-            Meet the new OnChainGM
-            <span className="text-2xl">✨</span>
+            Defx’s Fee-Free Frenzy ✨<span className="text-2xl">✨</span>
           </h1>
 
           {/* Description */}
           <p className="text-sm font-medium leading-[150%] mb-6 text-[#262626] px-4 md:px-0 md:max-w-md">
-            Make GM your daily Web3 ritual — with OnChainGM V2, every GM becomes
-            a unique soulbound GMCard NFT. Say GM across chains, keep your
-            streak alive, climb the leaderboard, and earn your share of the
-            $4,000 USDC reward pool.
+            Join Defx’s Fee-Free Frenzy — trade perpetuals on a purpose-built
+            CLOB L1 with zero fees and sub-millisecond execution.
           </p>
 
           {/* Stats - Hidden on mobile for cleaner look */}
